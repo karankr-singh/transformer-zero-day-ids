@@ -44,6 +44,6 @@ Dataset Used
 - NSL-KDD
 - CIC-IDS 2017
 
-These are standard and widely used datasets in intrusion detection research.
+These are standard and widely used datasets in intrusion detection research..
 
 
