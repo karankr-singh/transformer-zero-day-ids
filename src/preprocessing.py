@@ -21,7 +21,7 @@ def preprocess_data(df):
     - Encode labels
     """
 
-    # Separate features 
+    
     X = df.iloc[:, :-1]
     y = df.iloc[:, -1]
 
