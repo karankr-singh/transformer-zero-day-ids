@@ -25,7 +25,6 @@ def preprocess_data(df):
     X = df.iloc[:, :-1]
     y = df.iloc[:, -1]
 
-    # Encode categorical columns
     categorical_cols = X.select_dtypes(include=["object"]).columns
     for col in categorical_cols:
         le = LabelEncoder()
