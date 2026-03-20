@@ -58,7 +58,7 @@ def split_data(X, y, test_size=0.2):
 
 
 if __name__ == "__main__":
-    # Example usage (update path as needed)
+    # Example usage 
     dataset_path = "../data/NSL_KDD.csv"
 
     df = load_dataset(dataset_path)
