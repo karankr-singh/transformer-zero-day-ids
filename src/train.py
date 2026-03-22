@@ -40,7 +40,7 @@ def evaluate_model(model, test_loader):
 
 
 if __name__ == "__main__":
-    # Load and preprocess data
+    # Load and 
     dataset_path = "../data/NSL_KDD.csv"
     df = load_dataset(dataset_path)
     X, y = preprocess_data(df)
