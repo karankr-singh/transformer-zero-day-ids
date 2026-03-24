@@ -30,7 +30,6 @@ def preprocess_data(df):
         le = LabelEncoder()
         X[col] = le.fit_transform(X[col])
 
-    # Encode labels 
     label_encoder = LabelEncoder()
     y = label_encoder.fit_transform(y)
 
