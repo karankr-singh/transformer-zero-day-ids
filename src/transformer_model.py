@@ -6,7 +6,6 @@ class TransformerIDS(nn.Module):
     def __init__(self, input_dim, d_model=64, nhead=4, num_layers=2, num_classes=2):
         super(TransformerIDS, self).__init__()
 
-        # Feature embedding
         self.embedding = nn.Linear(input_dim, d_model)
 
         # Transformer Encoder
