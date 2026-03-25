@@ -58,7 +58,6 @@ if __name__ == "__main__":
     train_loader = DataLoader(train_dataset, batch_size=64, shuffle=True)
     test_loader = DataLoader(test_dataset, batch_size=64, shuffle=False)
 
-    # Model initialization
     input_dim = X_train.shape[1]
     model = TransformerIDS(input_dim=input_dim)
 
