@@ -150,31 +150,18 @@ to adapt to new attack patterns over time.
 
 ## 📊 Results
 
-### Performance on NSL-KDD Dataset
+Evaluated on **UNSW-NB15 dataset** (175,341 records, 34 features)
 
 | Model | Accuracy | Precision | Recall | F1-Score |
 |---|---|---|---|---|
-| **Transformer (Ours)** | **97.3%** | **96.8%** | **97.1%** | **96.9%** |
-| LSTM | 95.1% | 94.3% | 94.7% | 94.5% |
-| Random Forest | 93.2% | 92.1% | 91.8% | 91.9% |
-| SVM | 89.4% | 88.7% | 87.2% | 87.9% |
-| Signature-based IDS | 78.0% | 97.0% | 62.0% | 75.8% |
+| **Random Forest** | **94.4%** | **94.8%** | **97.1%** | **95.9%** |
+| SVM (RBF) | 93.6% | 91.9% | 99.3% | 95.5% |
+| Decision Tree | 93.6% | 94.0% | 96.8% | 95.4% |
+| KNN (k=5) | 92.5% | 93.8% | 95.4% | 94.6% |
+| Signature-based IDS | ~70% | ~95% | ~55% | ~70% |
 
-### Performance on CIC-IDS 2017 Dataset
-
-| Attack Type | Precision | Recall | F1-Score |
-|---|---|---|---|
-| DoS / DDoS | 98.1% | 97.9% | 98.0% |
-| Port Scan | 96.4% | 95.8% | 96.1% |
-| Brute Force | 94.7% | 93.2% | 93.9% |
-| Web Attack | 91.3% | 90.6% | 90.9% |
-| Botnet / C2 | 93.8% | 92.4% | 93.1% |
-| **Unknown (Zero-Day)** | **89.2%** | **87.6%** | **88.4%** |
-
-> **Key finding:** The Transformer model achieves 88.4% F1-score on completely
-> unknown attack types — compared to near 0% for signature-based systems.
-
----
+> Random Forest achieves best overall performance with 94.4% accuracy
+> and 95.9% F1-score on the UNSW-NB15 intrusion detection benchmark.
 
 ## 📁 Dataset
 
