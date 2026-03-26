@@ -7,9 +7,6 @@
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.4.0-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
 
-**Final Year Project**
-**Guided by: Dr. Saneh Lata Yadav**
-
 *An adaptive, self-evolving Transformer-based IDS that detects zero-day cyber attacks
 by learning complex patterns and long-term dependencies in network traffic.*
 
