@@ -267,6 +267,10 @@ transformer-zero-day-ids/
 
 ---
 
+## 🔗 Related Project
+👉 [AI-IDS Live Prototype](https://github.com/karankr-singh/ai-ids-zero-day-detection) 
+— Working terminal-based IDS with real-time detection dashboard
+
 ## 👥 Contributors
 
 | Name | Role |
