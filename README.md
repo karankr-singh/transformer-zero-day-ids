@@ -173,7 +173,7 @@ Evaluated on **UNSW-NB15 dataset** (175,341 records, 34 features)
 
 | Dataset | Records | Features | Classes |
 |---|---|---|---|
-| [NSL-KDD](https://www.unb.ca/cic/datasets/nsl.html) | 125,973 | 41 | Normal + 4 attack categories |
+| [UNSW-NB15](https://www.kaggle.com/datasets/dhoogla/unswnb15?resource=download) | 125,973 | 41 | Normal + 4 attack categories |
 | [CIC-IDS 2017](https://www.unb.ca/cic/datasets/ids-2017.html) | 2.8M | 78 | Normal + 14 attack types |
 
 Download datasets and place in the `data/` folder before running.
