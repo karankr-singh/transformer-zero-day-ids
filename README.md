@@ -163,6 +163,12 @@ Evaluated on **UNSW-NB15 dataset** (175,341 records, 34 features)
 > Random Forest achieves best overall performance with 94.4% accuracy
 > and 95.9% F1-score on the UNSW-NB15 intrusion detection benchmark.
 
+### Confusion Matrix
+<img width="750" height="600" alt="confusion_matrix" src="https://github.com/user-attachments/assets/a70814aa-9ec1-4a6a-a6c9-e1993b42b80c" />
+
+### Model Comparison
+<img width="1800" height="900" alt="model_comparison" src="https://github.com/user-attachments/assets/828a91e8-e81f-4264-8f65-49599193f765" />
+
 ## 📁 Dataset
 
 | Dataset | Records | Features | Classes |
