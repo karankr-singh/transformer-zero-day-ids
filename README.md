@@ -6,7 +6,7 @@ Cyber attacks are becoming more advanced every day, and many of them are zero-da
 
 This project focuses on building a Transformer-based Intrusion Detection System (IDS) that can learn patterns from network traffic data and identify zero-day attacks by detecting abnormal or unseen behavior. The use of Transformer models allows the system to capture complex relationships and long-term dependencies in network traffic, which improves detection accuracy compared to traditional methods.
 
-In addition, the system is designed with an daptive self-learning concept, where misclassified or suspicious traffic samples can be reused to improve the model over time. This makes the system more robust and suitable for real-world cybersecurity environments.
+In addition, the system is designed with an adaptive self-learning concept, where misclassified or suspicious traffic samples can be reused to improve the model over time. This makes the system more robust and suitable for real-world cybersecurity environments.
 
 ---
 
