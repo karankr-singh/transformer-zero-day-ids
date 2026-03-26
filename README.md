@@ -173,7 +173,7 @@ Evaluated on **UNSW-NB15 dataset** (175,341 records, 34 features)
 
 | Dataset | Records | Features | Classes |
 |---|---|---|---|
-| [UNSW-NB15](https://www.kaggle.com/datasets/dhoogla/unswnb15?resource=download) | 125,973 | 41 | Normal + 4 attack categories |
+| [UNSW-NB15](https://www.kaggle.com/datasets/dhoogla/unswnb15?resource=download) | 175,341 | 34 | Normal + 9 attack categories |
 | [CIC-IDS 2017](https://www.unb.ca/cic/datasets/ids-2017.html) | 2.8M | 78 | Normal + 14 attack types |
 
 Download datasets and place in the `data/` folder before running.
@@ -189,7 +189,7 @@ Download datasets and place in the `data/` folder before running.
 | ML Utilities | Scikit-learn 1.4.0 |
 | Data Processing | Pandas 2.1.0, NumPy 1.26.0 |
 | Visualization | Matplotlib 3.8.0, Seaborn 0.13.0 |
-| Dataset | NSL-KDD, CIC-IDS 2017 |
+| Dataset | UNSW-NB15, CIC-IDS 2017 |
 
 ---
 
@@ -209,7 +209,7 @@ venv\Scripts\activate           # Windows
 pip install -r requirements.txt
 
 # 4. Download dataset
-# Place NSL-KDD files in data/nsl-kdd/
+# Place UNSW-NB15 files in data/unsw-nb15/
 # Place CIC-IDS files in data/cic-ids/
 ```
 
