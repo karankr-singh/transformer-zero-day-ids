@@ -51,7 +51,6 @@ if __name__ == "__main__":
     X_test = torch.tensor(X_test, dtype=torch.float32)
     y_test = torch.tensor(y_test, dtype=torch.long)
 
-    # DataLoader
     train_dataset = TensorDataset(X_train, y_train)
     test_dataset = TensorDataset(X_test, y_test)
 
