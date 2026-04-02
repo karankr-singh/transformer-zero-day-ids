@@ -45,7 +45,6 @@ if __name__ == "__main__":
     X, y = preprocess_data(df)
     X_train, X_test, y_train, y_test = split_data(X, y)
 
-    # Convert to tensors
     X_train = torch.tensor(X_train, dtype=torch.float32)
     y_train = torch.tensor(y_train, dtype=torch.long)
     X_test = torch.tensor(X_test, dtype=torch.float32)
