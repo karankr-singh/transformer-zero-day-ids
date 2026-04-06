@@ -21,7 +21,6 @@ class TransformerIDS(nn.Module):
             num_layers=num_layers
         )
 
-        # Classification layer
         self.classifier = nn.Linear(d_model, num_classes)
 
         self.softmax = nn.Softmax(dim=1)
