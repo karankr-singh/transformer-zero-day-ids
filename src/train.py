@@ -63,6 +63,5 @@ if __name__ == "__main__":
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 
-    # Train and evaluate
     train_model(model, train_loader, criterion, optimizer, epochs=10)
     evaluate_model(model, test_loader)
