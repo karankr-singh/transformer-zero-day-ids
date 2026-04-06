@@ -59,7 +59,6 @@ if __name__ == "__main__":
     input_dim = X_train.shape[1]
     model = TransformerIDS(input_dim=input_dim)
 
-    # Loss and optimizer
     criterion = nn.CrossEntropyLoss()
     optimizer = optim.Adam(model.parameters(), lr=0.001)
 
