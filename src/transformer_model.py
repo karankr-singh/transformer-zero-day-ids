@@ -8,7 +8,7 @@ class TransformerIDS(nn.Module):
 
         self.embedding = nn.Linear(input_dim, d_model)
 
-        # Transformer Encoder
+        
         encoder_layer = nn.TransformerEncoderLayer(
             d_model=d_model,
             nhead=nhead,
